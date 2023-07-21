@@ -1,3 +1,4 @@
+import notes from "@/public/images/icons/tasks/notes.svg";
 interface Task {
   id: number;
   icon: string;
@@ -7,7 +8,7 @@ interface Task {
 const tasksData: Task[] = [
   {
     id: 1,
-    icon: "/images/icons/tasks/notes.svg",
+    icon: notes,
     text: "Принципово новий підхід, що дозволяє дистанційно з використанням БПЛА проводити дослідження по виявленню локації вибухонебезпечних предметів",
   },
   {
